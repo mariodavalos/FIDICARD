@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B05D34D1DCCD47900D89C7C /* Reachabilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D34C1DCCD47900D89C7C /* Reachabilty.swift */; };
+		5B05D34F1DCCFE7100D89C7C /* ArregloPromociones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D34E1DCCFE7100D89C7C /* ArregloPromociones.swift */; };
+		5B05D3511DCD171200D89C7C /* CPromocion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D3501DCD171200D89C7C /* CPromocion.swift */; };
+		5B302A281DB7C55B0035943D /* TarjetasFavoritasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B302A261DB7C55B0035943D /* TarjetasFavoritasViewController.swift */; };
+		5B4F6B381DC676DF0008C4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B371DC676DF0008C4BA /* AppDelegate.swift */; };
+		5B4F6B3A1DC677050008C4BA /* ArregloNotas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B391DC677050008C4BA /* ArregloNotas.swift */; };
+		5B4F6B3C1DC6770F0008C4BA /* AvisoPrivacidadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B3B1DC6770F0008C4BA /* AvisoPrivacidadViewController.swift */; };
+		5B4F6B3E1DC677160008C4BA /* CapturarTarjetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B3D1DC677160008C4BA /* CapturarTarjetaViewController.swift */; };
+		5B4F6B401DC6771D0008C4BA /* CarruselPromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B3F1DC6771D0008C4BA /* CarruselPromoViewController.swift */; };
+		5B4F6B421DC677270008C4BA /* CategoriasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B411DC677270008C4BA /* CategoriasTableViewCell.swift */; };
+		5B4F6B441DC6772E0008C4BA /* CategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B431DC6772E0008C4BA /* CategoriasViewController.swift */; };
+		5B4F6B461DC6773B0008C4BA /* CMarca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B451DC6773B0008C4BA /* CMarca.swift */; };
+		5B4F6B481DC677420008C4BA /* CNota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B471DC677420008C4BA /* CNota.swift */; };
+		5B4F6B4A1DC677490008C4BA /* CompletarTuPerfil2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B491DC677490008C4BA /* CompletarTuPerfil2ViewController.swift */; };
+		5B4F6B4C1DC677510008C4BA /* CompletaTuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B4B1DC677510008C4BA /* CompletaTuPerfilViewController.swift */; };
+		5B4F6B4E1DC677610008C4BA /* ConfirmTarjtVirtGenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B4D1DC677610008C4BA /* ConfirmTarjtVirtGenViewController.swift */; };
+		5B4F6B521DC677730008C4BA /* CSucursales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B511DC677730008C4BA /* CSucursales.swift */; };
+		5B4F6B541DC6778C0008C4BA /* CTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B531DC6778C0008C4BA /* CTarjeta.swift */; };
+		5B4F6B561DC677950008C4BA /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B551DC677950008C4BA /* CustomAnnotation.swift */; };
+		5B4F6B581DC677CC0008C4BA /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B571DC677CC0008C4BA /* CustomPointAnnotation.swift */; };
+		5B4F6B5A1DC677D40008C4BA /* DetalleTarjFisicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B591DC677D40008C4BA /* DetalleTarjFisicaViewController.swift */; };
+		5B4F6B5C1DC677DB0008C4BA /* detalleTarjtVirtualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B5B1DC677DB0008C4BA /* detalleTarjtVirtualViewController.swift */; };
+		5B4F6B5E1DC677E40008C4BA /* DetTarjFisicaVolteadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B5D1DC677E40008C4BA /* DetTarjFisicaVolteadaViewController.swift */; };
+		5B4F6B601DC677EA0008C4BA /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B5F1DC677EA0008C4BA /* EditarPerfilViewController.swift */; };
+		5B4F6B621DC677F10008C4BA /* EditarTarjetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B611DC677F10008C4BA /* EditarTarjetaViewController.swift */; };
+		5B4F6B641DC677F70008C4BA /* EsperandoConfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B631DC677F70008C4BA /* EsperandoConfViewController.swift */; };
+		5B4F6B661DC677FC0008C4BA /* GenerarTarjetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B651DC677FC0008C4BA /* GenerarTarjetaViewController.swift */; };
+		5B4F6B681DC678060008C4BA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B671DC678060008C4BA /* ImageCollectionViewCell.swift */; };
+		5B4F6B6A1DC6780C0008C4BA /* InformacionMarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B691DC6780C0008C4BA /* InformacionMarcaViewController.swift */; };
+		5B4F6B6C1DC678160008C4BA /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B6B1DC678160008C4BA /* InicioViewController.swift */; };
+		5B4F6B6E1DC6781E0008C4BA /* login PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B6D1DC6781E0008C4BA /* login PageItemController.swift */; };
+		5B4F6B701DC6782C0008C4BA /* LoginFacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B6F1DC6782C0008C4BA /* LoginFacebookViewController.swift */; };
+		5B4F6B721DC678330008C4BA /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B711DC678330008C4BA /* LoginPageViewController.swift */; };
+		5B4F6B741DC678390008C4BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B731DC678390008C4BA /* LoginViewController.swift */; };
+		5B4F6B781DC678630008C4BA /* MarcaNotFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B771DC678630008C4BA /* MarcaNotFoundViewController.swift */; };
+		5B4F6B7A1DC678680008C4BA /* MarcaPromocionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B791DC678680008C4BA /* MarcaPromocionPageViewController.swift */; };
+		5B4F6B7C1DC678700008C4BA /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B7B1DC678700008C4BA /* MarcaViewController.swift */; };
+		5B4F6B7E1DC678780008C4BA /* MisMarcasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B7D1DC678780008C4BA /* MisMarcasViewController.swift */; };
+		5B4F6B801DC678800008C4BA /* MisPromocionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B7F1DC678800008C4BA /* MisPromocionesViewController.swift */; };
+		5B4F6B821DC678890008C4BA /* MisTarjetasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B811DC678890008C4BA /* MisTarjetasTableViewCell.swift */; };
+		5B4F6B841DC678910008C4BA /* MisTarjetasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B831DC678910008C4BA /* MisTarjetasViewController.swift */; };
+		5B4F6B861DC6789B0008C4BA /* notasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B851DC6789B0008C4BA /* notasTableViewCell.swift */; };
+		5B4F6B881DC678A30008C4BA /* NotasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B871DC678A30008C4BA /* NotasViewController.swift */; };
+		5B4F6B8A1DC678AF0008C4BA /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B891DC678AF0008C4BA /* NotificacionesViewController.swift */; };
+		5B4F6B8C1DC678B60008C4BA /* NuevaNotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B8B1DC678B60008C4BA /* NuevaNotaViewController.swift */; };
+		5B4F6B8E1DC678BF0008C4BA /* PopUp1BtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B8D1DC678BF0008C4BA /* PopUp1BtnViewController.swift */; };
+		5B4F6B901DC678CC0008C4BA /* PopUp2BtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B8F1DC678CC0008C4BA /* PopUp2BtnViewController.swift */; };
+		5B4F6B921DC678D40008C4BA /* PromoCarruselModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B911DC678D40008C4BA /* PromoCarruselModeloViewController.swift */; };
+		5B4F6B941DC678DC0008C4BA /* PromocionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B931DC678DC0008C4BA /* PromocionCollectionViewCell.swift */; };
+		5B4F6B961DC678E40008C4BA /* PromoMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B951DC678E40008C4BA /* PromoMenuViewController.swift */; };
+		5B4F6B981DC678ED0008C4BA /* Promos1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B971DC678ED0008C4BA /* Promos1ViewController.swift */; };
+		5B4F6B9A1DC678F70008C4BA /* Promos2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B991DC678F70008C4BA /* Promos2ViewController.swift */; };
+		5B4F6B9C1DC678FF0008C4BA /* PromoSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B9B1DC678FF0008C4BA /* PromoSliderTableViewCell.swift */; };
+		5B4F6B9E1DC679070008C4BA /* RecuperarContraseñaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B9D1DC679070008C4BA /* RecuperarContraseñaViewController.swift */; };
+		5B4F6BA01DC679110008C4BA /* RegistroExitosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6B9F1DC679110008C4BA /* RegistroExitosoViewController.swift */; };
+		5B4F6BA21DC679190008C4BA /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BA11DC679190008C4BA /* RegistroViewController.swift */; };
+		5B4F6BA41DC679210008C4BA /* RestriccionesPromocionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BA31DC679210008C4BA /* RestriccionesPromocionViewController.swift */; };
+		5B4F6BA61DC679280008C4BA /* SlideOutMenUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BA51DC679280008C4BA /* SlideOutMenUIViewController.swift */; };
+		5B4F6BA81DC679310008C4BA /* SolicitarTarjetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BA71DC679310008C4BA /* SolicitarTarjetaViewController.swift */; };
+		5B4F6BAA1DC679380008C4BA /* SolTarjetaEnviadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BA91DC679380008C4BA /* SolTarjetaEnviadaViewController.swift */; };
+		5B4F6BAC1DC6793D0008C4BA /* SucursalesLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BAB1DC6793D0008C4BA /* SucursalesLocationViewController.swift */; };
+		5B4F6BAE1DC679440008C4BA /* SucursalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BAD1DC679440008C4BA /* SucursalesViewController.swift */; };
+		5B4F6BB01DC6794B0008C4BA /* SucursalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BAF1DC6794B0008C4BA /* SucursalTableViewCell.swift */; };
+		5B4F6BB21DC679550008C4BA /* TodasLasPromocionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BB11DC679550008C4BA /* TodasLasPromocionesViewController.swift */; };
+		5B4F6BB41DC6795B0008C4BA /* TodasLasPromosDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BB31DC6795B0008C4BA /* TodasLasPromosDetalleViewController.swift */; };
+		5B4F6BBE1DC790970008C4BA /* AddFirstCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6BBD1DC790970008C4BA /* AddFirstCardViewController.swift */; };
+		5B8103C11DC5723400162787 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8103C01DC5723400162787 /* Usuario.swift */; };
+		5BAA45561DDA596900136DDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BAA45551DDA596900136DDC /* GoogleService-Info.plist */; };
+		5BB49F861DD0EACE0029DD50 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB49F851DD0EACE0029DD50 /* Accelerate.framework */; };
+		5BBEA2C01DB7D743006601C7 /* ArregloTarjetasFavoritas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2BF1DB7D743006601C7 /* ArregloTarjetasFavoritas.swift */; };
+		5BBEA2C61DB942FB006601C7 /* dashboardTarjetasListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2C51DB942FB006601C7 /* dashboardTarjetasListViewController.swift */; };
+		5BBEA2C81DBE5FD2006601C7 /* ToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2C71DBE5FD2006601C7 /* ToolBox.swift */; };
+		5BBEA2CA1DBFD803006601C7 /* MisPromosDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2C91DBFD803006601C7 /* MisPromosDetalleViewController.swift */; };
+		5BBEA2CC1DC12B4E006601C7 /* MainPageViewModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2CB1DC12B4E006601C7 /* MainPageViewModeloViewController.swift */; };
+		5BBEA2CE1DC241BD006601C7 /* notificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2CD1DC241BD006601C7 /* notificationTableViewCell.swift */; };
+		5BBEA2D01DC24A1D006601C7 /* notificacionDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2CF1DC24A1D006601C7 /* notificacionDetalleViewController.swift */; };
+		5BBEA2D21DC25630006601C7 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEA2D11DC25630006601C7 /* ActivityIndicatorViewController.swift */; };
+		5BC4F8651DC7D5E300CE3EAA /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4F8621DC7D5E300CE3EAA /* Calibri Bold Italic.ttf */; };
+		5BC4F8661DC7D5E300CE3EAA /* Calibri Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4F8631DC7D5E300CE3EAA /* Calibri Bold.ttf */; };
+		5BC4F8671DC7D5E300CE3EAA /* Calibri Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4F8641DC7D5E300CE3EAA /* Calibri Italic.ttf */; };
+		5BC4F8691DC7D63C00CE3EAA /* Calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4F8681DC7D63C00CE3EAA /* Calibri.ttf */; };
+		5BF34B351DB682D70089AFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF34B331DB682D70089AFEA /* Main.storyboard */; };
+		5BF34B371DB682D70089AFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF34B361DB682D70089AFEA /* Assets.xcassets */; };
+		5BF34B3A1DB682D70089AFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF34B381DB682D70089AFEA /* LaunchScreen.storyboard */; };
+		5BF34B421DB684E30089AFEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF34B411DB684E30089AFEA /* MapKit.framework */; };
+		F20431D7C44C256417C1C5E6 /* Pods_FIDICARD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F3F7161BE89CFC67DE192D /* Pods_FIDICARD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58F3F7161BE89CFC67DE192D /* Pods_FIDICARD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIDICARD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B05D34C1DCCD47900D89C7C /* Reachabilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachabilty.swift; sourceTree = "<group>"; };
+		5B05D34E1DCCFE7100D89C7C /* ArregloPromociones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArregloPromociones.swift; sourceTree = "<group>"; };
+		5B05D3501DCD171200D89C7C /* CPromocion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPromocion.swift; sourceTree = "<group>"; };
+		5B302A261DB7C55B0035943D /* TarjetasFavoritasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarjetasFavoritasViewController.swift; sourceTree = "<group>"; };
+		5B4F6B371DC676DF0008C4BA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B4F6B391DC677050008C4BA /* ArregloNotas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArregloNotas.swift; sourceTree = "<group>"; };
+		5B4F6B3B1DC6770F0008C4BA /* AvisoPrivacidadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisoPrivacidadViewController.swift; sourceTree = "<group>"; };
+		5B4F6B3D1DC677160008C4BA /* CapturarTarjetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturarTarjetaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B3F1DC6771D0008C4BA /* CarruselPromoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarruselPromoViewController.swift; sourceTree = "<group>"; };
+		5B4F6B411DC677270008C4BA /* CategoriasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasTableViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B431DC6772E0008C4BA /* CategoriasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriasViewController.swift; sourceTree = "<group>"; };
+		5B4F6B451DC6773B0008C4BA /* CMarca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMarca.swift; sourceTree = "<group>"; };
+		5B4F6B471DC677420008C4BA /* CNota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNota.swift; sourceTree = "<group>"; };
+		5B4F6B491DC677490008C4BA /* CompletarTuPerfil2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletarTuPerfil2ViewController.swift; sourceTree = "<group>"; };
+		5B4F6B4B1DC677510008C4BA /* CompletaTuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletaTuPerfilViewController.swift; sourceTree = "<group>"; };
+		5B4F6B4D1DC677610008C4BA /* ConfirmTarjtVirtGenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTarjtVirtGenViewController.swift; sourceTree = "<group>"; };
+		5B4F6B511DC677730008C4BA /* CSucursales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSucursales.swift; sourceTree = "<group>"; };
+		5B4F6B531DC6778C0008C4BA /* CTarjeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTarjeta.swift; sourceTree = "<group>"; };
+		5B4F6B551DC677950008C4BA /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		5B4F6B571DC677CC0008C4BA /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		5B4F6B591DC677D40008C4BA /* DetalleTarjFisicaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleTarjFisicaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B5B1DC677DB0008C4BA /* detalleTarjtVirtualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleTarjtVirtualViewController.swift; sourceTree = "<group>"; };
+		5B4F6B5D1DC677E40008C4BA /* DetTarjFisicaVolteadaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetTarjFisicaVolteadaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B5F1DC677EA0008C4BA /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
+		5B4F6B611DC677F10008C4BA /* EditarTarjetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarTarjetaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B631DC677F70008C4BA /* EsperandoConfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsperandoConfViewController.swift; sourceTree = "<group>"; };
+		5B4F6B651DC677FC0008C4BA /* GenerarTarjetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerarTarjetaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B671DC678060008C4BA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B691DC6780C0008C4BA /* InformacionMarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionMarcaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B6B1DC678160008C4BA /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		5B4F6B6D1DC6781E0008C4BA /* login PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "login PageItemController.swift"; sourceTree = "<group>"; };
+		5B4F6B6F1DC6782C0008C4BA /* LoginFacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFacebookViewController.swift; sourceTree = "<group>"; };
+		5B4F6B711DC678330008C4BA /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		5B4F6B731DC678390008C4BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B4F6B771DC678630008C4BA /* MarcaNotFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaNotFoundViewController.swift; sourceTree = "<group>"; };
+		5B4F6B791DC678680008C4BA /* MarcaPromocionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaPromocionPageViewController.swift; sourceTree = "<group>"; };
+		5B4F6B7B1DC678700008C4BA /* MarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B7D1DC678780008C4BA /* MisMarcasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisMarcasViewController.swift; sourceTree = "<group>"; };
+		5B4F6B7F1DC678800008C4BA /* MisPromocionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisPromocionesViewController.swift; sourceTree = "<group>"; };
+		5B4F6B811DC678890008C4BA /* MisTarjetasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisTarjetasTableViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B831DC678910008C4BA /* MisTarjetasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisTarjetasViewController.swift; sourceTree = "<group>"; };
+		5B4F6B851DC6789B0008C4BA /* notasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notasTableViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B871DC678A30008C4BA /* NotasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotasViewController.swift; sourceTree = "<group>"; };
+		5B4F6B891DC678AF0008C4BA /* NotificacionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificacionesViewController.swift; sourceTree = "<group>"; };
+		5B4F6B8B1DC678B60008C4BA /* NuevaNotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaNotaViewController.swift; sourceTree = "<group>"; };
+		5B4F6B8D1DC678BF0008C4BA /* PopUp1BtnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp1BtnViewController.swift; sourceTree = "<group>"; };
+		5B4F6B8F1DC678CC0008C4BA /* PopUp2BtnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp2BtnViewController.swift; sourceTree = "<group>"; };
+		5B4F6B911DC678D40008C4BA /* PromoCarruselModeloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoCarruselModeloViewController.swift; sourceTree = "<group>"; };
+		5B4F6B931DC678DC0008C4BA /* PromocionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromocionCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B951DC678E40008C4BA /* PromoMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoMenuViewController.swift; sourceTree = "<group>"; };
+		5B4F6B971DC678ED0008C4BA /* Promos1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promos1ViewController.swift; sourceTree = "<group>"; };
+		5B4F6B991DC678F70008C4BA /* Promos2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promos2ViewController.swift; sourceTree = "<group>"; };
+		5B4F6B9B1DC678FF0008C4BA /* PromoSliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoSliderTableViewCell.swift; sourceTree = "<group>"; };
+		5B4F6B9D1DC679070008C4BA /* RecuperarContraseñaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RecuperarContraseñaViewController.swift"; sourceTree = "<group>"; };
+		5B4F6B9F1DC679110008C4BA /* RegistroExitosoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroExitosoViewController.swift; sourceTree = "<group>"; };
+		5B4F6BA11DC679190008C4BA /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		5B4F6BA31DC679210008C4BA /* RestriccionesPromocionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestriccionesPromocionViewController.swift; sourceTree = "<group>"; };
+		5B4F6BA51DC679280008C4BA /* SlideOutMenUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenUIViewController.swift; sourceTree = "<group>"; };
+		5B4F6BA71DC679310008C4BA /* SolicitarTarjetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolicitarTarjetaViewController.swift; sourceTree = "<group>"; };
+		5B4F6BA91DC679380008C4BA /* SolTarjetaEnviadaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolTarjetaEnviadaViewController.swift; sourceTree = "<group>"; };
+		5B4F6BAB1DC6793D0008C4BA /* SucursalesLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalesLocationViewController.swift; sourceTree = "<group>"; };
+		5B4F6BAD1DC679440008C4BA /* SucursalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalesViewController.swift; sourceTree = "<group>"; };
+		5B4F6BAF1DC6794B0008C4BA /* SucursalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalTableViewCell.swift; sourceTree = "<group>"; };
+		5B4F6BB11DC679550008C4BA /* TodasLasPromocionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodasLasPromocionesViewController.swift; sourceTree = "<group>"; };
+		5B4F6BB31DC6795B0008C4BA /* TodasLasPromosDetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodasLasPromosDetalleViewController.swift; sourceTree = "<group>"; };
+		5B4F6BBD1DC790970008C4BA /* AddFirstCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFirstCardViewController.swift; sourceTree = "<group>"; };
+		5B8103C01DC5723400162787 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		5BAA45551DDA596900136DDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/D1484B5D-410A-4BF7-A815-FFC72E0F070C/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BB49F851DD0EACE0029DD50 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5BB49F871DD0EB350029DD50 /* FIDICARD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FIDICARD-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BBEA2BF1DB7D743006601C7 /* ArregloTarjetasFavoritas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArregloTarjetasFavoritas.swift; sourceTree = "<group>"; };
+		5BBEA2C51DB942FB006601C7 /* dashboardTarjetasListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashboardTarjetasListViewController.swift; sourceTree = "<group>"; };
+		5BBEA2C71DBE5FD2006601C7 /* ToolBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolBox.swift; sourceTree = "<group>"; };
+		5BBEA2C91DBFD803006601C7 /* MisPromosDetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisPromosDetalleViewController.swift; sourceTree = "<group>"; };
+		5BBEA2CB1DC12B4E006601C7 /* MainPageViewModeloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewModeloViewController.swift; sourceTree = "<group>"; };
+		5BBEA2CD1DC241BD006601C7 /* notificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationTableViewCell.swift; sourceTree = "<group>"; };
+		5BBEA2CF1DC24A1D006601C7 /* notificacionDetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificacionDetalleViewController.swift; sourceTree = "<group>"; };
+		5BBEA2D11DC25630006601C7 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		5BC4F8621DC7D5E300CE3EAA /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold Italic.ttf"; sourceTree = "<group>"; };
+		5BC4F8631DC7D5E300CE3EAA /* Calibri Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.ttf"; sourceTree = "<group>"; };
+		5BC4F8641DC7D5E300CE3EAA /* Calibri Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Italic.ttf"; sourceTree = "<group>"; };
+		5BC4F8681DC7D63C00CE3EAA /* Calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calibri.ttf; sourceTree = "<group>"; };
+		5BF34B2C1DB682D70089AFEA /* FIDICARD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIDICARD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF34B341DB682D70089AFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF34B361DB682D70089AFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF34B391DB682D70089AFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BF34B3B1DB682D70089AFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF34B411DB684E30089AFEA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A32E5ACE3E127629A10FEFE5 /* Pods-FIDICARD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDICARD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIDICARD/Pods-FIDICARD.debug.xcconfig"; sourceTree = "<group>"; };
+		A819E7CC98FD4987B38BC3E5 /* Pods-FIDICARD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDICARD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIDICARD/Pods-FIDICARD.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF34B291DB682D70089AFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB49F861DD0EACE0029DD50 /* Accelerate.framework in Frameworks */,
+				5BF34B421DB684E30089AFEA /* MapKit.framework in Frameworks */,
+				F20431D7C44C256417C1C5E6 /* Pods_FIDICARD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8103BF1DC5708F00162787 /* Current File */ = {
+			isa = PBXGroup;
+			children = (
+				5B05D34E1DCCFE7100D89C7C /* ArregloPromociones.swift */,
+				5B05D34C1DCCD47900D89C7C /* Reachabilty.swift */,
+				5BBEA2D11DC25630006601C7 /* ActivityIndicatorViewController.swift */,
+				5BBEA2BF1DB7D743006601C7 /* ArregloTarjetasFavoritas.swift */,
+				5BBEA2C51DB942FB006601C7 /* dashboardTarjetasListViewController.swift */,
+				5BBEA2CB1DC12B4E006601C7 /* MainPageViewModeloViewController.swift */,
+				5BBEA2C91DBFD803006601C7 /* MisPromosDetalleViewController.swift */,
+				5BBEA2CD1DC241BD006601C7 /* notificationTableViewCell.swift */,
+				5BBEA2CF1DC24A1D006601C7 /* notificacionDetalleViewController.swift */,
+				5B302A261DB7C55B0035943D /* TarjetasFavoritasViewController.swift */,
+				5BBEA2C71DBE5FD2006601C7 /* ToolBox.swift */,
+				5B8103C01DC5723400162787 /* Usuario.swift */,
+			);
+			name = "Current File";
+			sourceTree = "<group>";
+		};
+		5BF34B231DB682D70089AFEA = {
+			isa = PBXGroup;
+			children = (
+				5BAA45551DDA596900136DDC /* GoogleService-Info.plist */,
+				5BF34B2E1DB682D70089AFEA /* FIDICARD */,
+				5BF34B2D1DB682D70089AFEA /* Products */,
+				BA704E476B157CE680C87BC8 /* Pods */,
+				810C5050BD5D8C8CCC3C8075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF34B2D1DB682D70089AFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF34B2C1DB682D70089AFEA /* FIDICARD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF34B2E1DB682D70089AFEA /* FIDICARD */ = {
+			isa = PBXGroup;
+			children = (
+				5B05D3501DCD171200D89C7C /* CPromocion.swift */,
+				5B4F6BBD1DC790970008C4BA /* AddFirstCardViewController.swift */,
+				5B4F6B371DC676DF0008C4BA /* AppDelegate.swift */,
+				5BB49F871DD0EB350029DD50 /* FIDICARD-Bridging-Header.h */,
+				5B8103BF1DC5708F00162787 /* Current File */,
+				5BF34B331DB682D70089AFEA /* Main.storyboard */,
+				5BF34B361DB682D70089AFEA /* Assets.xcassets */,
+				5BF34B381DB682D70089AFEA /* LaunchScreen.storyboard */,
+				5BF34B3B1DB682D70089AFEA /* Info.plist */,
+				5B4F6B391DC677050008C4BA /* ArregloNotas.swift */,
+				5B4F6B3B1DC6770F0008C4BA /* AvisoPrivacidadViewController.swift */,
+				5B4F6B3D1DC677160008C4BA /* CapturarTarjetaViewController.swift */,
+				5B4F6B3F1DC6771D0008C4BA /* CarruselPromoViewController.swift */,
+				5B4F6B411DC677270008C4BA /* CategoriasTableViewCell.swift */,
+				5B4F6B431DC6772E0008C4BA /* CategoriasViewController.swift */,
+				5B4F6B451DC6773B0008C4BA /* CMarca.swift */,
+				5B4F6B471DC677420008C4BA /* CNota.swift */,
+				5B4F6B491DC677490008C4BA /* CompletarTuPerfil2ViewController.swift */,
+				5B4F6B4B1DC677510008C4BA /* CompletaTuPerfilViewController.swift */,
+				5B4F6B4D1DC677610008C4BA /* ConfirmTarjtVirtGenViewController.swift */,
+				5B4F6B511DC677730008C4BA /* CSucursales.swift */,
+				5B4F6B531DC6778C0008C4BA /* CTarjeta.swift */,
+				5B4F6B551DC677950008C4BA /* CustomAnnotation.swift */,
+				5B4F6B571DC677CC0008C4BA /* CustomPointAnnotation.swift */,
+				5B4F6B591DC677D40008C4BA /* DetalleTarjFisicaViewController.swift */,
+				5B4F6B5B1DC677DB0008C4BA /* detalleTarjtVirtualViewController.swift */,
+				5B4F6B5D1DC677E40008C4BA /* DetTarjFisicaVolteadaViewController.swift */,
+				5B4F6B5F1DC677EA0008C4BA /* EditarPerfilViewController.swift */,
+				5B4F6B611DC677F10008C4BA /* EditarTarjetaViewController.swift */,
+				5B4F6B631DC677F70008C4BA /* EsperandoConfViewController.swift */,
+				5B4F6B651DC677FC0008C4BA /* GenerarTarjetaViewController.swift */,
+				5B4F6B671DC678060008C4BA /* ImageCollectionViewCell.swift */,
+				5B4F6B691DC6780C0008C4BA /* InformacionMarcaViewController.swift */,
+				5B4F6B6B1DC678160008C4BA /* InicioViewController.swift */,
+				5B4F6B6D1DC6781E0008C4BA /* login PageItemController.swift */,
+				5B4F6B6F1DC6782C0008C4BA /* LoginFacebookViewController.swift */,
+				5B4F6B711DC678330008C4BA /* LoginPageViewController.swift */,
+				5B4F6B731DC678390008C4BA /* LoginViewController.swift */,
+				5B4F6B771DC678630008C4BA /* MarcaNotFoundViewController.swift */,
+				5B4F6B791DC678680008C4BA /* MarcaPromocionPageViewController.swift */,
+				5B4F6B7B1DC678700008C4BA /* MarcaViewController.swift */,
+				5B4F6B7D1DC678780008C4BA /* MisMarcasViewController.swift */,
+				5B4F6B7F1DC678800008C4BA /* MisPromocionesViewController.swift */,
+				5B4F6B811DC678890008C4BA /* MisTarjetasTableViewCell.swift */,
+				5B4F6B831DC678910008C4BA /* MisTarjetasViewController.swift */,
+				5B4F6B851DC6789B0008C4BA /* notasTableViewCell.swift */,
+				5B4F6B871DC678A30008C4BA /* NotasViewController.swift */,
+				5B4F6B891DC678AF0008C4BA /* NotificacionesViewController.swift */,
+				5B4F6B8B1DC678B60008C4BA /* NuevaNotaViewController.swift */,
+				5B4F6B8D1DC678BF0008C4BA /* PopUp1BtnViewController.swift */,
+				5B4F6B8F1DC678CC0008C4BA /* PopUp2BtnViewController.swift */,
+				5B4F6B911DC678D40008C4BA /* PromoCarruselModeloViewController.swift */,
+				5B4F6B931DC678DC0008C4BA /* PromocionCollectionViewCell.swift */,
+				5B4F6B951DC678E40008C4BA /* PromoMenuViewController.swift */,
+				5B4F6B971DC678ED0008C4BA /* Promos1ViewController.swift */,
+				5B4F6B991DC678F70008C4BA /* Promos2ViewController.swift */,
+				5B4F6B9B1DC678FF0008C4BA /* PromoSliderTableViewCell.swift */,
+				5B4F6B9D1DC679070008C4BA /* RecuperarContraseñaViewController.swift */,
+				5B4F6B9F1DC679110008C4BA /* RegistroExitosoViewController.swift */,
+				5B4F6BA11DC679190008C4BA /* RegistroViewController.swift */,
+				5B4F6BA31DC679210008C4BA /* RestriccionesPromocionViewController.swift */,
+				5B4F6BA51DC679280008C4BA /* SlideOutMenUIViewController.swift */,
+				5B4F6BA71DC679310008C4BA /* SolicitarTarjetaViewController.swift */,
+				5B4F6BA91DC679380008C4BA /* SolTarjetaEnviadaViewController.swift */,
+				5B4F6BAB1DC6793D0008C4BA /* SucursalesLocationViewController.swift */,
+				5B4F6BAD1DC679440008C4BA /* SucursalesViewController.swift */,
+				5B4F6BAF1DC6794B0008C4BA /* SucursalTableViewCell.swift */,
+				5B4F6BB11DC679550008C4BA /* TodasLasPromocionesViewController.swift */,
+				5B4F6BB31DC6795B0008C4BA /* TodasLasPromosDetalleViewController.swift */,
+				5BC4F8681DC7D63C00CE3EAA /* Calibri.ttf */,
+				5BC4F8621DC7D5E300CE3EAA /* Calibri Bold Italic.ttf */,
+				5BC4F8631DC7D5E300CE3EAA /* Calibri Bold.ttf */,
+				5BC4F8641DC7D5E300CE3EAA /* Calibri Italic.ttf */,
+			);
+			path = FIDICARD;
+			sourceTree = "<group>";
+		};
+		810C5050BD5D8C8CCC3C8075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB49F851DD0EACE0029DD50 /* Accelerate.framework */,
+				5BF34B411DB684E30089AFEA /* MapKit.framework */,
+				58F3F7161BE89CFC67DE192D /* Pods_FIDICARD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA704E476B157CE680C87BC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32E5ACE3E127629A10FEFE5 /* Pods-FIDICARD.debug.xcconfig */,
+				A819E7CC98FD4987B38BC3E5 /* Pods-FIDICARD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF34B2B1DB682D70089AFEA /* FIDICARD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF34B3E1DB682D70089AFEA /* Build configuration list for PBXNativeTarget "FIDICARD" */;
+			buildPhases = (
+				A6ED55ADD9486C9197F00096 /* [CP] Check Pods Manifest.lock */,
+				5BF34B281DB682D70089AFEA /* Sources */,
+				5BF34B291DB682D70089AFEA /* Frameworks */,
+				5BF34B2A1DB682D70089AFEA /* Resources */,
+				F566470236EAD6ED5DE07C7B /* [CP] Embed Pods Frameworks */,
+				977F3B95F1E82C8A553A179B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIDICARD;
+			productName = FIDICARD;
+			productReference = 5BF34B2C1DB682D70089AFEA /* FIDICARD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF34B241DB682D70089AFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = oOMovil;
+				TargetAttributes = {
+					5BF34B2B1DB682D70089AFEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3SFNKKMD2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5BF34B271DB682D70089AFEA /* Build configuration list for PBXProject "FIDICARD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF34B231DB682D70089AFEA;
+			productRefGroup = 5BF34B2D1DB682D70089AFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF34B2B1DB682D70089AFEA /* FIDICARD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF34B2A1DB682D70089AFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC4F8661DC7D5E300CE3EAA /* Calibri Bold.ttf in Resources */,
+				5BAA45561DDA596900136DDC /* GoogleService-Info.plist in Resources */,
+				5BC4F8671DC7D5E300CE3EAA /* Calibri Italic.ttf in Resources */,
+				5BF34B3A1DB682D70089AFEA /* LaunchScreen.storyboard in Resources */,
+				5BF34B371DB682D70089AFEA /* Assets.xcassets in Resources */,
+				5BC4F8691DC7D63C00CE3EAA /* Calibri.ttf in Resources */,
+				5BC4F8651DC7D5E300CE3EAA /* Calibri Bold Italic.ttf in Resources */,
+				5BF34B351DB682D70089AFEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		977F3B95F1E82C8A553A179B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDICARD/Pods-FIDICARD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6ED55ADD9486C9197F00096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F566470236EAD6ED5DE07C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDICARD/Pods-FIDICARD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF34B281DB682D70089AFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B05D3511DCD171200D89C7C /* CPromocion.swift in Sources */,
+				5B05D34D1DCCD47900D89C7C /* Reachabilty.swift in Sources */,
+				5B4F6B381DC676DF0008C4BA /* AppDelegate.swift in Sources */,
+				5BBEA2D21DC25630006601C7 /* ActivityIndicatorViewController.swift in Sources */,
+				5B4F6BA41DC679210008C4BA /* RestriccionesPromocionViewController.swift in Sources */,
+				5B4F6B941DC678DC0008C4BA /* PromocionCollectionViewCell.swift in Sources */,
+				5B4F6B741DC678390008C4BA /* LoginViewController.swift in Sources */,
+				5B4F6B821DC678890008C4BA /* MisTarjetasTableViewCell.swift in Sources */,
+				5B4F6BA21DC679190008C4BA /* RegistroViewController.swift in Sources */,
+				5B4F6B401DC6771D0008C4BA /* CarruselPromoViewController.swift in Sources */,
+				5B4F6B6A1DC6780C0008C4BA /* InformacionMarcaViewController.swift in Sources */,
+				5B4F6B981DC678ED0008C4BA /* Promos1ViewController.swift in Sources */,
+				5B4F6B561DC677950008C4BA /* CustomAnnotation.swift in Sources */,
+				5B4F6B921DC678D40008C4BA /* PromoCarruselModeloViewController.swift in Sources */,
+				5B4F6B4E1DC677610008C4BA /* ConfirmTarjtVirtGenViewController.swift in Sources */,
+				5B4F6B481DC677420008C4BA /* CNota.swift in Sources */,
+				5B4F6B4A1DC677490008C4BA /* CompletarTuPerfil2ViewController.swift in Sources */,
+				5B4F6B8A1DC678AF0008C4BA /* NotificacionesViewController.swift in Sources */,
+				5B4F6B3C1DC6770F0008C4BA /* AvisoPrivacidadViewController.swift in Sources */,
+				5B4F6B801DC678800008C4BA /* MisPromocionesViewController.swift in Sources */,
+				5B4F6B461DC6773B0008C4BA /* CMarca.swift in Sources */,
+				5B4F6B3A1DC677050008C4BA /* ArregloNotas.swift in Sources */,
+				5B4F6B5A1DC677D40008C4BA /* DetalleTarjFisicaViewController.swift in Sources */,
+				5B4F6BA61DC679280008C4BA /* SlideOutMenUIViewController.swift in Sources */,
+				5B4F6B781DC678630008C4BA /* MarcaNotFoundViewController.swift in Sources */,
+				5B4F6B661DC677FC0008C4BA /* GenerarTarjetaViewController.swift in Sources */,
+				5B4F6B721DC678330008C4BA /* LoginPageViewController.swift in Sources */,
+				5B4F6BB21DC679550008C4BA /* TodasLasPromocionesViewController.swift in Sources */,
+				5B4F6B521DC677730008C4BA /* CSucursales.swift in Sources */,
+				5BBEA2CC1DC12B4E006601C7 /* MainPageViewModeloViewController.swift in Sources */,
+				5BBEA2C81DBE5FD2006601C7 /* ToolBox.swift in Sources */,
+				5B4F6BBE1DC790970008C4BA /* AddFirstCardViewController.swift in Sources */,
+				5B302A281DB7C55B0035943D /* TarjetasFavoritasViewController.swift in Sources */,
+				5B4F6B841DC678910008C4BA /* MisTarjetasViewController.swift in Sources */,
+				5B4F6B7E1DC678780008C4BA /* MisMarcasViewController.swift in Sources */,
+				5B4F6B441DC6772E0008C4BA /* CategoriasViewController.swift in Sources */,
+				5B4F6BAC1DC6793D0008C4BA /* SucursalesLocationViewController.swift in Sources */,
+				5BBEA2CA1DBFD803006601C7 /* MisPromosDetalleViewController.swift in Sources */,
+				5B4F6B6C1DC678160008C4BA /* InicioViewController.swift in Sources */,
+				5B4F6B581DC677CC0008C4BA /* CustomPointAnnotation.swift in Sources */,
+				5B4F6B701DC6782C0008C4BA /* LoginFacebookViewController.swift in Sources */,
+				5B4F6B4C1DC677510008C4BA /* CompletaTuPerfilViewController.swift in Sources */,
+				5B4F6B861DC6789B0008C4BA /* notasTableViewCell.swift in Sources */,
+				5B4F6B881DC678A30008C4BA /* NotasViewController.swift in Sources */,
+				5B8103C11DC5723400162787 /* Usuario.swift in Sources */,
+				5B4F6B8C1DC678B60008C4BA /* NuevaNotaViewController.swift in Sources */,
+				5BBEA2C01DB7D743006601C7 /* ArregloTarjetasFavoritas.swift in Sources */,
+				5B4F6B541DC6778C0008C4BA /* CTarjeta.swift in Sources */,
+				5B4F6B3E1DC677160008C4BA /* CapturarTarjetaViewController.swift in Sources */,
+				5B4F6B7C1DC678700008C4BA /* MarcaViewController.swift in Sources */,
+				5B4F6B9A1DC678F70008C4BA /* Promos2ViewController.swift in Sources */,
+				5B4F6BA81DC679310008C4BA /* SolicitarTarjetaViewController.swift in Sources */,
+				5B4F6B901DC678CC0008C4BA /* PopUp2BtnViewController.swift in Sources */,
+				5B4F6BB41DC6795B0008C4BA /* TodasLasPromosDetalleViewController.swift in Sources */,
+				5B4F6B601DC677EA0008C4BA /* EditarPerfilViewController.swift in Sources */,
+				5B4F6B6E1DC6781E0008C4BA /* login PageItemController.swift in Sources */,
+				5B4F6BA01DC679110008C4BA /* RegistroExitosoViewController.swift in Sources */,
+				5BBEA2C61DB942FB006601C7 /* dashboardTarjetasListViewController.swift in Sources */,
+				5B4F6B9C1DC678FF0008C4BA /* PromoSliderTableViewCell.swift in Sources */,
+				5B4F6B7A1DC678680008C4BA /* MarcaPromocionPageViewController.swift in Sources */,
+				5B05D34F1DCCFE7100D89C7C /* ArregloPromociones.swift in Sources */,
+				5B4F6BAA1DC679380008C4BA /* SolTarjetaEnviadaViewController.swift in Sources */,
+				5B4F6BAE1DC679440008C4BA /* SucursalesViewController.swift in Sources */,
+				5B4F6B421DC677270008C4BA /* CategoriasTableViewCell.swift in Sources */,
+				5B4F6B5C1DC677DB0008C4BA /* detalleTarjtVirtualViewController.swift in Sources */,
+				5BBEA2CE1DC241BD006601C7 /* notificationTableViewCell.swift in Sources */,
+				5B4F6B9E1DC679070008C4BA /* RecuperarContraseñaViewController.swift in Sources */,
+				5B4F6B641DC677F70008C4BA /* EsperandoConfViewController.swift in Sources */,
+				5B4F6BB01DC6794B0008C4BA /* SucursalTableViewCell.swift in Sources */,
+				5B4F6B681DC678060008C4BA /* ImageCollectionViewCell.swift in Sources */,
+				5B4F6B621DC677F10008C4BA /* EditarTarjetaViewController.swift in Sources */,
+				5B4F6B5E1DC677E40008C4BA /* DetTarjFisicaVolteadaViewController.swift in Sources */,
+				5B4F6B961DC678E40008C4BA /* PromoMenuViewController.swift in Sources */,
+				5B4F6B8E1DC678BF0008C4BA /* PopUp1BtnViewController.swift in Sources */,
+				5BBEA2D01DC24A1D006601C7 /* notificacionDetalleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BF34B331DB682D70089AFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF34B341DB682D70089AFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF34B381DB682D70089AFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF34B391DB682D70089AFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF34B3C1DB682D70089AFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF34B3D1DB682D70089AFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF34B3F1DB682D70089AFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32E5ACE3E127629A10FEFE5 /* Pods-FIDICARD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FIDICARD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oOMovil.fidicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bec93b5-9eb8-4bb1-8018-137cfb4ffc9e";
+				SWIFT_OBJC_BRIDGING_HEADER = "FIDICARD/FIDICARD-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		5BF34B401DB682D70089AFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A819E7CC98FD4987B38BC3E5 /* Pods-FIDICARD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FIDICARD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oOMovil.fidicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bec93b5-9eb8-4bb1-8018-137cfb4ffc9e";
+				SWIFT_OBJC_BRIDGING_HEADER = "FIDICARD/FIDICARD-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF34B271DB682D70089AFEA /* Build configuration list for PBXProject "FIDICARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF34B3C1DB682D70089AFEA /* Debug */,
+				5BF34B3D1DB682D70089AFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF34B3E1DB682D70089AFEA /* Build configuration list for PBXNativeTarget "FIDICARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF34B3F1DB682D70089AFEA /* Debug */,
+				5BF34B401DB682D70089AFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF34B241DB682D70089AFEA /* Project object */;
+}

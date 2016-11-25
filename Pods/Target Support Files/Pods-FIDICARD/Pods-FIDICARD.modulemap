@@ -1,0 +1,6 @@
+framework module Pods_FIDICARD {
+  umbrella header "Pods-FIDICARD-umbrella.h"
+
+  export *
+  module * { export * }
+}
